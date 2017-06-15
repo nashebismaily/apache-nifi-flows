@@ -1,0 +1,971 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.0">
+  <description></description>
+  <groupId>7c84501d-d10c-407c-b9f3-1d80e38fe36a</groupId>
+  <name>Oralce To Hive</name>
+  <snippet>
+    <connections>
+      <id>9fab0f80-015a-1000-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>9faaa53a-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>90fb85fe-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>062e35ad-7e4f-1a32-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>062e3580-7e4f-1a32-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>9faaa53a-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>062e35f0-7e4f-1a32-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>062e35e1-7e4f-1a32-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>split</selectedRelationships>
+      <source>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>062e3580-7e4f-1a32-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>062e369f-7e4f-1a32-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>062e3685-7e4f-1a32-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>matched</selectedRelationships>
+      <source>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>062e35e1-7e4f-1a32-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>6332bcca-015b-1000-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>062e367f-7e4f-1a32-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>062e3685-7e4f-1a32-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>63f28cd6-015b-1000-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>fc22350f-07e5-1e59-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>7c84501d-d10c-407c-0000-000000000000</groupId>
+        <id>63f25b3c-015b-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <controllerServices>
+      <id>90fd30ed-015a-1000-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <comments></comments>
+      <descriptors>
+        <entry>
+          <key>Database Connection URL</key>
+          <value>
+            <name>Database Connection URL</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Database Driver Class Name</key>
+          <value>
+            <name>Database Driver Class Name</name>
+          </value>
+        </entry>
+        <entry>
+          <key>database-driver-locations</key>
+          <value>
+            <name>database-driver-locations</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Database User</key>
+          <value>
+            <name>Database User</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Password</key>
+          <value>
+            <name>Password</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Max Wait Time</key>
+          <value>
+            <name>Max Wait Time</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Max Total Connections</key>
+          <value>
+            <name>Max Total Connections</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Validation-query</key>
+          <value>
+            <name>Validation-query</name>
+          </value>
+        </entry>
+      </descriptors>
+      <name>DBCPConnectionPool</name>
+      <properties>
+        <entry>
+          <key>Database Connection URL</key>
+          <value>jdbc:oracle:thin:@192.168.56.121:1521:xe</value>
+        </entry>
+        <entry>
+          <key>Database Driver Class Name</key>
+          <value>oracle.jdbc.OracleDriver</value>
+        </entry>
+        <entry>
+          <key>database-driver-locations</key>
+        </entry>
+        <entry>
+          <key>Database User</key>
+          <value>system</value>
+        </entry>
+        <entry>
+          <key>Password</key>
+        </entry>
+        <entry>
+          <key>Max Wait Time</key>
+          <value>500 millis</value>
+        </entry>
+        <entry>
+          <key>Max Total Connections</key>
+          <value>8</value>
+        </entry>
+        <entry>
+          <key>Validation-query</key>
+        </entry>
+      </properties>
+      <state>DISABLED</state>
+      <type>org.apache.nifi.dbcp.DBCPConnectionPool</type>
+    </controllerServices>
+    <controllerServices>
+      <id>6344377a-015b-1000-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <comments></comments>
+      <descriptors>
+        <entry>
+          <key>hive-db-connect-url</key>
+          <value>
+            <name>hive-db-connect-url</name>
+          </value>
+        </entry>
+        <entry>
+          <key>hive-config-resources</key>
+          <value>
+            <name>hive-config-resources</name>
+          </value>
+        </entry>
+        <entry>
+          <key>hive-db-user</key>
+          <value>
+            <name>hive-db-user</name>
+          </value>
+        </entry>
+        <entry>
+          <key>hive-db-password</key>
+          <value>
+            <name>hive-db-password</name>
+          </value>
+        </entry>
+        <entry>
+          <key>hive-max-wait-time</key>
+          <value>
+            <name>hive-max-wait-time</name>
+          </value>
+        </entry>
+        <entry>
+          <key>hive-max-total-connections</key>
+          <value>
+            <name>hive-max-total-connections</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Validation-query</key>
+          <value>
+            <name>Validation-query</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Kerberos Principal</key>
+          <value>
+            <name>Kerberos Principal</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Kerberos Keytab</key>
+          <value>
+            <name>Kerberos Keytab</name>
+          </value>
+        </entry>
+      </descriptors>
+      <name>HiveConnectionPool</name>
+      <properties>
+        <entry>
+          <key>hive-db-connect-url</key>
+        </entry>
+        <entry>
+          <key>hive-config-resources</key>
+        </entry>
+        <entry>
+          <key>hive-db-user</key>
+        </entry>
+        <entry>
+          <key>hive-db-password</key>
+        </entry>
+        <entry>
+          <key>hive-max-wait-time</key>
+          <value>500 millis</value>
+        </entry>
+        <entry>
+          <key>hive-max-total-connections</key>
+          <value>8</value>
+        </entry>
+        <entry>
+          <key>Validation-query</key>
+        </entry>
+        <entry>
+          <key>Kerberos Principal</key>
+        </entry>
+        <entry>
+          <key>Kerberos Keytab</key>
+        </entry>
+      </properties>
+      <state>DISABLED</state>
+      <type>org.apache.nifi.dbcp.hive.HiveConnectionPool</type>
+    </controllerServices>
+    <processors>
+      <id>90fb85fe-015a-1000-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <position>
+        <x>1358.3154168786214</x>
+        <y>58.74990142190072</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Database Connection Pooling Service</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+              <name>Database Connection Pooling Service</name>
+            </value>
+          </entry>
+          <entry>
+            <key>SQL select query</key>
+            <value>
+              <name>SQL select query</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Max Wait Time</key>
+            <value>
+              <name>Max Wait Time</name>
+            </value>
+          </entry>
+          <entry>
+            <key>dbf-normalize</key>
+            <value>
+              <name>dbf-normalize</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Database Connection Pooling Service</key>
+            <value>90fd30ed-015a-1000-0000-000000000000</value>
+          </entry>
+          <entry>
+            <key>SQL select query</key>
+            <value>select * from EMP.EMPLOYEES</value>
+          </entry>
+          <entry>
+            <key>Max Wait Time</key>
+            <value>0 seconds</value>
+          </entry>
+          <entry>
+            <key>dbf-normalize</key>
+            <value>false</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>30 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ExecuteSQL</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ExecuteSQL</type>
+    </processors>
+    <processors>
+      <id>9faaa53a-015a-1000-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <position>
+        <x>1350.3049032919243</x>
+        <y>294.921104537302</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>JSON container options</key>
+            <value>
+              <name>JSON container options</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Wrap Single Record</key>
+            <value>
+              <name>Wrap Single Record</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Avro schema</key>
+            <value>
+              <name>Avro schema</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>JSON container options</key>
+            <value>array</value>
+          </entry>
+          <entry>
+            <key>Wrap Single Record</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Avro schema</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ConvertAvroToJSON</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.avro.ConvertAvroToJSON</type>
+    </processors>
+    <processors>
+      <id>fc22350f-07e5-1e59-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>215.0482436037732</y>
+      </position>
+      <config>
+        <bulletinLevel>DEBUG</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Log Level</key>
+            <value>
+              <name>Log Level</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Log Payload</key>
+            <value>
+              <name>Log Payload</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Attributes to Log</key>
+            <value>
+              <name>Attributes to Log</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Attributes to Ignore</key>
+            <value>
+              <name>Attributes to Ignore</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Log prefix</key>
+            <value>
+              <name>Log prefix</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Log Level</key>
+            <value>info</value>
+          </entry>
+          <entry>
+            <key>Log Payload</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Attributes to Log</key>
+          </entry>
+          <entry>
+            <key>Attributes to Ignore</key>
+          </entry>
+          <entry>
+            <key>Log prefix</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>LogAttribute</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.LogAttribute</type>
+    </processors>
+    <processors>
+      <id>062e3580-7e4f-1a32-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <position>
+        <x>1346.8792365351628</x>
+        <y>533.085122755869</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>JsonPath Expression</key>
+            <value>
+              <name>JsonPath Expression</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>
+              <name>Null Value Representation</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>JsonPath Expression</key>
+            <value>$.*</value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>empty string</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>SplitJson</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>original</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>split</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.SplitJson</type>
+    </processors>
+    <processors>
+      <id>062e35e1-7e4f-1a32-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <position>
+        <x>1944.1735825951678</x>
+        <y>529.3672578136043</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Destination</key>
+            <value>
+              <name>Destination</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Return Type</key>
+            <value>
+              <name>Return Type</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Path Not Found Behavior</key>
+            <value>
+              <name>Path Not Found Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>
+              <name>Null Value Representation</name>
+            </value>
+          </entry>
+          <entry>
+            <key>employee_id</key>
+            <value>
+              <name>employee_id</name>
+            </value>
+          </entry>
+          <entry>
+            <key>first_name</key>
+            <value>
+              <name>first_name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>last_name</key>
+            <value>
+              <name>last_name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>modified_date</key>
+            <value>
+              <name>modified_date</name>
+            </value>
+          </entry>
+          <entry>
+            <key>state</key>
+            <value>
+              <name>state</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Destination</key>
+            <value>flowfile-attribute</value>
+          </entry>
+          <entry>
+            <key>Return Type</key>
+            <value>auto-detect</value>
+          </entry>
+          <entry>
+            <key>Path Not Found Behavior</key>
+            <value>ignore</value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>empty string</value>
+          </entry>
+          <entry>
+            <key>employee_id</key>
+            <value>$.EMPLOYEE_ID</value>
+          </entry>
+          <entry>
+            <key>first_name</key>
+            <value>$.FIRST_NAME</value>
+          </entry>
+          <entry>
+            <key>last_name</key>
+            <value>$.LAST_NAME</value>
+          </entry>
+          <entry>
+            <key>modified_date</key>
+            <value>$.MODIFIED_DATE</value>
+          </entry>
+          <entry>
+            <key>state</key>
+            <value>$.STATE</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>EvaluateJsonPath</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>matched</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>unmatched</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
+    </processors>
+    <processors>
+      <id>062e367f-7e4f-1a32-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <position>
+        <x>1938.6326535811863</x>
+        <y>56.64587624808149</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Hive Database Connection Pooling Service</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.dbcp.hive.HiveDBCPService</identifiesControllerService>
+              <name>Hive Database Connection Pooling Service</name>
+            </value>
+          </entry>
+          <entry>
+            <key>hive-batch-size</key>
+            <value>
+              <name>hive-batch-size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>hive-charset</key>
+            <value>
+              <name>hive-charset</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Hive Database Connection Pooling Service</key>
+            <value>6344377a-015b-1000-0000-000000000000</value>
+          </entry>
+          <entry>
+            <key>hive-batch-size</key>
+            <value>100</value>
+          </entry>
+          <entry>
+            <key>hive-charset</key>
+            <value>UTF-8</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutHiveQL</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>retry</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.hive.PutHiveQL</type>
+    </processors>
+    <processors>
+      <id>062e3685-7e4f-1a32-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <position>
+        <x>1939.7152094238459</x>
+        <y>292.31193824326357</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Regular Expression</key>
+            <value>
+              <name>Regular Expression</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Replacement Value</key>
+            <value>
+              <name>Replacement Value</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Character Set</key>
+            <value>
+              <name>Character Set</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Buffer Size</key>
+            <value>
+              <name>Maximum Buffer Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Replacement Strategy</key>
+            <value>
+              <name>Replacement Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Evaluation Mode</key>
+            <value>
+              <name>Evaluation Mode</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Regular Expression</key>
+            <value>(?s)(^.*$)</value>
+          </entry>
+          <entry>
+            <key>Replacement Value</key>
+            <value>INSERT INTO employees (employee_id, last_name, first_name, stae, modified_date)
+VALUES ('${employee_id}', '${last_name}', '${first_name}', '${state}', '${modified_date}')</value>
+          </entry>
+          <entry>
+            <key>Character Set</key>
+            <value>UTF-8</value>
+          </entry>
+          <entry>
+            <key>Maximum Buffer Size</key>
+            <value>1 MB</value>
+          </entry>
+          <entry>
+            <key>Replacement Strategy</key>
+            <value>Always Replace</value>
+          </entry>
+          <entry>
+            <key>Evaluation Mode</key>
+            <value>Entire text</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ReplaceText</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ReplaceText</type>
+    </processors>
+    <processors>
+      <id>63f25b3c-015b-1000-0000-000000000000</id>
+      <parentGroupId>7c84501d-d10c-407c-0000-000000000000</parentGroupId>
+      <position>
+        <x>80.96181138366364</x>
+        <y>0.0</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>File Size</key>
+            <value>
+              <name>File Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>
+              <name>Batch Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Data Format</key>
+            <value>
+              <name>Data Format</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unique FlowFiles</key>
+            <value>
+              <name>Unique FlowFiles</name>
+            </value>
+          </entry>
+          <entry>
+            <key>generate-ff-custom-text</key>
+            <value>
+              <name>generate-ff-custom-text</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>File Size</key>
+            <value>1B</value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>1</value>
+          </entry>
+          <entry>
+            <key>Data Format</key>
+            <value>Text</value>
+          </entry>
+          <entry>
+            <key>Unique FlowFiles</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>generate-ff-custom-text</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>GenerateFlowFile</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
+    </processors>
+  </snippet>
+  <timestamp>06/15/2017 17:40:15 EDT</timestamp>
+</template>
